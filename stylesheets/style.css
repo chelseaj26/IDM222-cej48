@@ -1,0 +1,141 @@
+body {
+    background-color: #f8f8f8;
+    max-width: auto;
+    margin: auto;
+}
+
+
+.navbar {
+    word-spacing: 20px;
+    text-align: right;
+    padding: 2% 4%;
+    letter-spacing: 0.1rem;
+    background: linear-gradient(rgba(121, 33, 16, 1.0), rgba(121, 33, 16, 0.60), rgba(121, 33, 16, 0.0));
+
+}
+
+/* NAVBAR LINKS */
+
+a:link {
+    text-decoration: none;
+    font-family: 'open_sansextrabold', sans-serif;
+    color: #FFF;
+    font-style: normal;
+
+}
+
+
+a:visited {
+    color: #FFF;
+}
+
+a:hover {
+    border-bottom: 2px solid #FFF;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'open_sansextrabold', sans-serif;
+    color: #001833;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 1.875rem;
+    padding: 0 0 1% 0;
+    color: #001833;
+    font-weight: 800;
+    font-family: 'open_sansbold', sans-serif
+}
+
+header {
+    background: linear-gradient(rgba(121, 33, 16, 1.0), rgba(121, 33, 16, 0.20)),
+        /* bottom, image */
+        url(images/skyline.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+}
+
+.intro {
+    margin: auto;
+    padding: 1.25rem 1rem;
+}
+
+.intro h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
+.intro h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.09rem;
+}
+
+.wrapper {
+    margin: 0.5rem 0;
+    font-family: 'abhaya_libreregular', serif;
+
+}
+
+.about {
+    padding: 2% 4%;
+
+}
+
+.about p {
+    font-family: 'abhaya_libreregular', serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    color: #616569;
+    letter-spacing: .02rem;
+    font-size: 1.2rem;
+    padding: 0 4%;
+    max-width: 400px;
+}
+
+/*MAKING CIRCLE IMAGE*/
+
+.about-image {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.profile-pic {
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+}
+
+/*FOOTER STYLING*/
+
+.footer {
+    background-color: #ededed;
+    text-align: center;
+    padding: 2%;
+
+
+}
+
+/* PORTFOLIO STYLING*/

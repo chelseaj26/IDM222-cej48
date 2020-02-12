@@ -1,2 +1,3 @@
-##My Responsive site!
-http://chelseajamess.com/idm222/
+#My Responsive site!
+
+#http://chelseajamess.com/idm222/

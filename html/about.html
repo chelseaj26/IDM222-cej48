@@ -1,39 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>About</title>
+    <title>Chelsea James | About</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../normalize.css" />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="../font.css" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel=" stylesheet" href="main.css">
 </head>
 
 <body>
-    <header>
-        <div class="navigation">
-            <!--<div clas="logo">
-                <img src="images/cj_logo.png" />
-            </div> !-->
-            <nav class="navbar">
-                <a href="about.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+    <!--  Made by Erik Terwan -->
+    <!--  24th of November 2015 -->
+    <!--  Mods by Jervis Thompson-->
+    <!----  Mobile and Non-Mobile Navagation Menus -->
+    <!----  Jan 2020-->
+    <!--  MIT License -->
 
+    <nav role="navigation">
+        <div id="menuToggle">
+            <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+            <input type="checkbox" />
+
+            <!--
+    Some spans to act as a hamburger.
+
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+            <ul id="menu">
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="portfolio.html">
+                    <li>Portfolio</li>
+                </a>
+                <a href="resume.html">
+                    <li>Resume</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
         </div>
+    </nav>
+
+    <header>
+        <ul>
+
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
     </header>
-    <div class="about-image">
-        <img src="images/skyline.jpg" alt="Image of Chelsea James" class="profile-pic">
+    <div id="wrapper">
+        <div id="logo">
+            <img src="images/logo.png" alt="Logo" onclick="index.html">
+        </div>
+        
+           
+           <div class="about-image">
+        <img src="images/chelseajames.jpg" alt="Image of Chelsea James" class="profile-pic">
     </div>
-
-
-
-    <div class="flex-container">
-        <section class="about">
-            <div class="about-content">
+  
+            <div class="about">
 
                 <p>Hello, I'm Chelsea James. I was born in Georgetown, Guyana and immigrated to Queens, New York at the age of two. Growing up in New York City was more than I could've ever asked for. I was able to express myself in any way that I wanted. I became interested in musical theater at a young age and would often run from audition to audition with my mother. </p>
 
@@ -49,7 +92,8 @@
             </div>
 
 
-        </section>
     </div>
 
-</body></html>
+</body>
+
+</html>

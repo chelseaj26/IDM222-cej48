@@ -1,3 +1,3 @@
 My Responsive website!
 
-http://chelseajamess.com/idm222/
+http://chelseajamess.com
